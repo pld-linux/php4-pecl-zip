@@ -1,16 +1,17 @@
 %define		_modname	zip
-%define		_status		alpha
+%define		_status		beta
 %define		_sysconfdir	/etc/php4
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
+
 Summary:	%{_modname} - a zip management extension
 Summary(pl):	%{_modname} - zarz±dzanie archiwami zip
 Name:		php4-pecl-%{_modname}
-Version:	1.5.0
+Version:	1.7.2
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	cea41efb3a3c5642d119081801bd0d1c
+# Source0-md5:	7a11897e667e8e2f800b507efd0c2ff1
 URL:		http://pecl.php.net/package/zip/
 BuildRequires:	php4-devel >= 3:4.3.0
 BuildRequires:	rpmbuild(macros) >= 1.254
