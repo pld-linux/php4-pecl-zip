@@ -14,7 +14,7 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	791c94460d784cb3c94c5e1966c31863
 URL:		http://pecl.php.net/package/zip/
 BuildRequires:	php4-devel >= 3:4.3.0
-BuildRequires:	rpmbuild(macros) >= 1.254
+BuildRequires:	rpmbuild(macros) >= 1.322
 BuildRequires:	zziplib-devel
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
