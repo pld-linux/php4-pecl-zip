@@ -4,7 +4,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - a zip management extension
-Summary(pl):	%{_modname} - zarz±dzanie archiwami zip
+Summary(pl.UTF-8):   %{_modname} - zarzÄ…dzanie archiwami zip
 Name:		php4-pecl-%{_modname}
 Version:	1.8.1
 Release:	1
@@ -27,9 +27,9 @@ Zip is an extension to create, modify and read zip files.
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-Zip jest rozszerzeniem umo¿liwiaj±cym tworzenie, modyfikacjê oraz
-odczyt archiwów zip.
+%description -l pl.UTF-8
+Zip jest rozszerzeniem umoÅ¼liwiajÄ…cym tworzenie, modyfikacjÄ™ oraz
+odczyt archiwÃ³w zip.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
