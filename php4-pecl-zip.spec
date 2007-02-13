@@ -4,7 +4,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - a zip management extension
-Summary(pl.UTF-8):   %{_modname} - zarządzanie archiwami zip
+Summary(pl.UTF-8):	%{_modname} - zarządzanie archiwami zip
 Name:		php4-pecl-%{_modname}
 Version:	1.8.1
 Release:	1
