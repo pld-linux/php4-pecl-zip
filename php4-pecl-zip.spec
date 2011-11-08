@@ -6,7 +6,7 @@ Summary:	%{_modname} - a zip management extension
 Summary(pl.UTF-8):	%{_modname} - zarządzanie archiwami zip
 Name:		php4-pecl-%{_modname}
 Version:	1.9.0
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
